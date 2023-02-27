@@ -1,5 +1,5 @@
 <h1>CureFem</h1>
 
 <h2>Front Page</h2>
-![image](https://user-images.githubusercontent.com/86596711/221600411-65a8a822-6a2e-4440-a48c-ceba12341f24.png)
+![image](https://user-images.githubusercontent.com/86596711/221601105-55c07a1d-56b1-4332-927b-3dc67a7284ad.png)
 
