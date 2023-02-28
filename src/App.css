@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headings{
+  font-size: 50px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper{
+  background-color: blueviolet;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.total{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head{
+  background-color: blueviolet;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  font-size:50px;
+  font-weight: bold;
+  padding: 2px;
+  color: whitesmoke;
+  text-shadow: 2px 3px 8px black;
+  
+}
+.head:hover{
+  cursor: pointer;
+  color:black;
+  text-shadow: 2px 3px 8px white;
+}
+
+.imagesPage1{
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page1{
+  color: blueviolet;
+  border: 3px solid white;
+  background-color: whitesmoke;
+  padding: 1.5%;
+  border-radius: 30px;
+  transition: 0.6s ease-in-out all;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page1:hover{
+  width: 29%;
+  height: 72%; 
+  /* transition: 1ms ease all; */
+  background-color:brown;
+  box-shadow: 0 6px 10px 0 whitesmoke, 0 6px 20px 0 whitesmoke;
+  color: whitesmoke;
 }
