@@ -4,4 +4,4 @@
 <img src='page1.png' alt='page1 screenshot'></img>
 
 <h2>Patient Registeration Page</h2>
-<video src='patientPage.mp4'></video>
+<video><source src="patientPage.mp4" type="video/mp4"></source></video>
