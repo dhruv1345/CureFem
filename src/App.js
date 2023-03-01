@@ -1,7 +1,9 @@
 import './App.css';
 import Patient from "./pages/patient";
 import Doctor from './pages/doctor';
+// import Register from './pages/patientbegins';
 import Organization from './pages/organization';
+// import { Link } from 'react-router-dom';
 
 function App() {
   return (
