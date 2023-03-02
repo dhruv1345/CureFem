@@ -8,7 +8,7 @@ function Register(){
             <video className="apniVideo" src={video} autoPlay loop muted />
             <div className="content">
                 <div className="headerwala">
-                    <h1 className="headingCont">Namaste Patient 🫂 !</h1>
+                    <h1 className="headingCont">Namaste Patient 😷 !</h1>
                 </div>
                 
                 <br />
@@ -16,19 +16,19 @@ function Register(){
                 <div className="form">
                     <div className="tableLeft">
                         <table>
-                            <tr> 
+                            <tr className="row"> 
                                 <td><label className="label"  htmlFor="fname">First Name : </label></td>
                                 <td><input className="inputing" type="text" name="fname" /></td> 
                             </tr>
-                            <tr> 
+                            <tr className="row"> 
                                 <td><label className="label"  htmlFor="Lname">Last Name : </label></td>
                                 <td><input className="inputing" type="text" name="Lname" /></td> 
                             </tr>
-                            <tr> 
+                            <tr className="row"> 
                                 <td><label className="label"  htmlFor="City">City : </label></td>
                                 <td><input className="inputing" type="text" name="City" /></td> 
                             </tr>
-                            <tr> 
+                            <tr className="row"> 
                                 <td><label className="label"  htmlFor="country">Country : </label></td>
                                 <td><input className="inputing" type="text" name="country" /></td> 
                             </tr>
@@ -40,15 +40,15 @@ function Register(){
                                 <label className="label" htmlFor="NOFem">Females in family : </label>
                                 <input className="inputing" type="number" name="NOFem" id="" />
                             </tr> */}
-                            <tr>
+                            <tr className="row">
                                 <td>
-                                    <label className="label"  htmlFor="Disease">Disease : </label>
+                                    <label className="label"  htmlFor="Disease">Symptoms : </label>
                                 </td>
                                 <td>
                                     <input className="inputing" type="text" name="Disease" />
                                 </td>
                             </tr>
-                            <tr>
+                            <tr className="row">
                                 <td>
                                     <label className="label"  htmlFor="help">Help Needed ? : </label>
                                 </td>
@@ -56,7 +56,7 @@ function Register(){
                                     <input className="inputing" type="text" name="help" />
                                 </td>
                             </tr>
-                            <tr>
+                            <tr className="row">
                                 <td className="label">
                                     <label htmlFor="number">Contact : </label>
                                 </td>
@@ -64,7 +64,7 @@ function Register(){
                                     <input className="inputing" type="number" name="number" id="" />
                                 </td>
                             </tr>
-                            <tr>
+                            <tr className="row">
                                 <td></td>
                                 <td><input className="button" type="button" value="Submit" /></td>
                             </tr>
