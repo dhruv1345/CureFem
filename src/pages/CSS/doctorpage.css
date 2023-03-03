@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -19,10 +21,6 @@
     font-size: 3rem;
     gap: 3rem;
     object-fit: cover;
-}
-
-.Dochead{
-    padding: 2px;
 }
 
 .mainSection{
@@ -53,5 +51,74 @@
     padding-right: 1rem;
     border-radius: 2rem;
     opacity: 0.5;
+}
+
+.secondsection{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 100vh;
+    border: 10px solid black;
+    margin: 3%;
+    /* overflow-x: hidden; */
+}
+
+.imagation{
+    width: 40%;
+    height: 15%;
+    margin: 3rem;
+    border-radius: 3rem;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imaging{
+    display: flex;
+}
+.h4image{
+    font-size: 2rem;
+    padding-left: 3rem;
+    color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+.imaging span{
+    color:aquamarine;
+
+}
+
+.pimage{
+    padding-left: 3rem;
+    font-size: 20px;
+    padding-right: 2rem;
+    font-weight: bold;
+    color: white;
+    padding-top: 3rem;
+}
+
+.list{
+    padding: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button1 {
+    width: 80%;
+    height: 10%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    background-color: transparent;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button1:hover{
+    background-color: whitesmoke;
+    color: darkslategrey;
 }
 
