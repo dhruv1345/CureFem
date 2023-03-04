@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import App from './App';
 import Register from "../src/pages/patientbegins";
-// import Doctory from './pages/doctorbegins';
+import Doctory from './pages/doctorbegins';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
