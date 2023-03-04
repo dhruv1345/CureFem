@@ -66,7 +66,7 @@ function Register(){
                             </tr>
                             <tr className="row">
                                 <td></td>
-                                <td><input className="button" type="button" value="Submit" /></td>
+                                <td><a href="https://www.womensweb.in/2018/07/women-doctors-in-india/" ><input className="button" type="button" value="Submit" /></a></td>
                             </tr>
                         </table>
                     </div>
