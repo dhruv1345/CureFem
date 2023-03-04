@@ -9,7 +9,7 @@
 https://user-images.githubusercontent.com/86596711/222914146-994cafe7-aba1-4128-8e1d-1d96bbaa6cd5.mp4 
  
  
-<h2>Front Page< 🤩/h2>
+<h2>Front Page 🤩</h2>
 <img src='page1.png' alt='page1 screenshot'></img>
 
 <h2>Patient Panel Page 🫂💊</h2>
