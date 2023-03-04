@@ -27,7 +27,7 @@ function Doctory(){
                         </p>
                         <button className="button1">Click to See their Problems</button>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
